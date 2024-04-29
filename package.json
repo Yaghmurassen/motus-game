@@ -1,0 +1,30 @@
+{
+  "name": "motus-game",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc && vite build",
+    "preview": "vite preview",
+    "test:unit": "vitest --environment jsdom --root src/"
+  },
+  "dependencies": {
+    "@types/jsdom": "^21.1.6",
+    "@vue/test-utils": "^2.4.5",
+    "start-server-and-test": "^2.0.3",
+    "vue": "^3.4.21"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.0.4",
+    "autoprefixer": "^10.4.19",
+    "jsdom": "^24.0.0",
+    "postcss": "^8.4.38",
+    "sass": "^1.75.0",
+    "tailwindcss": "^3.4.3",
+    "typescript": "^5.2.2",
+    "vite": "^5.2.0",
+    "vitest": "^1.5.2",
+    "vue-tsc": "^2.0.6"
+  }
+}
